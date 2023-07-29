@@ -28,7 +28,7 @@ app.get('/', (req, res)=>{
     /*
     Renderiza el archivo home.hbs desde la carpeta view
     */
-    res.render('Home',{
+    res.render('home',{
         titulo: 'Curso Node',
         nombre: 'Alberto Lizcano'
     });
